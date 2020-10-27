@@ -1,0 +1,58 @@
+.container{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+}
+
+.container:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+
+/* @media (max-width: 600px){
+    .container{
+        background-color: red;
+        height: 300px;
+        width: 300px;
+    }
+ 
+
+}
+
+*/.container2{
+    background-color: purple;
+    height: 300px;
+    width: 300px;
+}
+
+.container2:hover{
+    color: blue;
+    cursor: pointer;
+}
+/*
+
+@media (max-width: 600px){
+    .container2{
+        background-color: green;
+        height: 300px;
+        width: 300px;
+    } */
+
+
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+
+.container{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+}
+
+.container2{
+background-color: purple;
+height: 300px;
+width: 300px;
+}
+
+}
